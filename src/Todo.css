@@ -1,0 +1,69 @@
+.icon{
+    font-size: 25px !important;
+    color: red;
+}
+.edit{
+ margin-right: 30px !important;
+ color: blue;
+}
+.modal{
+    position:absolute;
+    width: 350px;
+    background-color:white;
+    box-shadow: 0 0 2px grey;
+    outline: white;
+    text-align: center;
+    min-height: 150px;
+    padding-bottom: 25px !important;
+}
+.modal_main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: red !important;
+}
+.update{
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    min-height: 300px;
+    /* background-color: red !important; */
+}
+.modal>p{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading{
+    color: blue !important;
+}
+.update_input{
+    overflow: auto;
+}
+.list{
+    margin-top: -10px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    margin-left: -20px !important;
+    border-bottom: 1px solid grey;
+    margin-right: 15px !important;
+    display: flex !important;
+}
+.text{
+    width: 70%;
+    color: red;
+}
+.update_btn{
+    background-color: skyblue !important;
+    height: 22px;
+    position: relative !important;
+    bottom: -5px !important;
+    color: white !important;
+}
+textarea{
+    resize: none;
+    height: 160px;
+    width: 300px;
+    margin-top: 10px;
+    outline: none;
+}
